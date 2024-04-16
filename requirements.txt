@@ -106,7 +106,7 @@ pybluemonday==0.0.9
     # via -r requirements.in
 pycparser==2.20
     # via cffi
-pydantic==1.6.2
+pydantic==1.10.13
     # via -r requirements.in
 pymysql==0.9.3
     # via -r requirements.in
@@ -168,3 +168,4 @@ zope-interface==5.2.0
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
